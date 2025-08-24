@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER</title>
+    <link href="C:\Users\Swagata Das\Desktop\TASKSPHERE\public\css\register.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet"> 
+    <link href="../public/css/register.css" rel="stylesheet">
+    
+</head>
+
+<body>
+
+<h1>WELCOME TO TASKSPHERE</h1>
+<p id="start">Create your free account and start managing tasks smarter!</p>
+<div class="inner-box2">
+    <form id="registerForm">
+        <label class="outer" for="name">Name:</label><br>
+        <input class="inner" type="text" id="firstname" name="name" placeholder="Name"><br><br>
+
+        <label  class="outer" for="email">Email:</label><br>
+        <input class="inner" type="email" id="email" name="email" placeholder="Email"><br><br>
+
+        <label class="outer" for="password">Password:</label><br>
+        <input class="inner" type="password" id="password" name="password"  placeholder="Password(10)"><br><br>
+
+        <button type="submit" id="REGISTER">CREATE NEW ACCOUNT</button>
+    </form>
+    <p id="message"></p>
+</div>
+<p id="end">Already have an account? please <a href="../views/login.html">LOG IN</a></p>
+    <script src="../public/js/register.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+body{
+   background-color: #cbdcfa;
+}
+
+h1{
+text-align: center;
+color:rgb(66, 26, 99);
+font-family: "Walter Turncoat", cursive;
+font-style: normal;
+font-size: 30px;
+padding: 12px;
+}
+
+#start{
+  font-size: 25px;
+  color: rgb(66, 6, 56);
+  text-align: center;
+  font-family: "Carter One", system-ui;
+}
+
+p{  
+  font-size: 15px;
+  text-align: center;
+  font-family: "Walter Turncoat", cursive;
+  color: rgb(66, 6, 56);
+}
+
+button{
+    background-color: rgb(90, 49, 122);
+    color:white;
+    border-radius: 12px;
+    padding:10px;
+    width: 70%;
+    font-size: 20px;
+    font-family: "Walter Turncoat", cursive;
+   
+}
+
+button:hover{
+  opacity: 0.9;
+  background-color: green;
+}
+
+.outer{
+  font-size: 20px;
+  padding: 18px;
+  color:rgb(71, 9, 71);
+  font-family: "Bubblegum Sans", sans-serif;
+  margin:5px;
+}
+
+#firstname{
+  width: 70%;
+  font-size: 12px;
+  position: relative;
+  left: 27px;
+}
+
+#email{
+  margin: 20px;
+    width: 70%;
+     font-size: 12px;
+}
+
+#password{
+  margin: 20px;
+   font-size: 12px;
+    width: 70%;
+}
+
+.inner{
+
+    font-family: "Walter Turncoat", cursive;
+    padding-left: 10px;
+    border-radius: 30px;
+    box-shadow: 0px 20px 25px rgba(0,0,0,0.1);
+}
+
+form{
+    background-color: rgb(210, 238, 249);
+    border: 2px solid black;
+    color:white;
+    padding:20px;
+    border-radius: 40px;
+    box-shadow: 0px 25px 25px rgba(0,0,0,0.1);  
+    float: left;
+  
+  width: 70%; height: 50%;
+  
+  justify-content: center;
+  align-items: center;    
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TaskSphere Dashboard</title>
+<link rel="stylesheet" href="../public/css/dashboard.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Carter+One&family=Caveat:wght@400..700&family=Merienda:wght@300..900&family=Patua+One&family=Walter+Turncoat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<h3> WELCOME TO YOUR TASKSPHERE DASHBOARD!</h3>
+<p class="subtext">you can now Add, Edit and manage your tasks smartly!</p>
+  <button id="log-out">Log Out</button><button id="createAccountBtn">Create New Account</button>
+  <div id="taskProgressContainer">
+  <div>
+ <div class="task-counts">
+  <span id="pending">Pending: <span id="pending-count">0</span></span>
+  <span id="complete">Completed: <span id="completed-count">0</span></span>
+</div>
+</div>
+
+<div id="list"></div>
+<button id="addtaskbtn">+ </button>
+
+<div id="taskModal" class="modal">
+  <div class="modal-content">
+    <button class="close-btn" id="closeFormBtn">X</button>
+    <h2>Create Task</h2>
+    <form id="taskForm">
+      <input type="text" id="title" name="title"  placeholder="title" required><br>
+
+      <label for="description">Description</label>
+      <textarea   id="description" name="description"></textarea><br>
+
+      <label for="dueDate">Due Date</label>
+      <input type="date" id="dueDate" name="dueDate">
+
+      <label for="priority">Priority</label>
+      <select id="priority" name="priority">
+        <option value="Low">Low</option>
+        <option value="Medium">Medium</option>
+        <option value="High">High</option>
+      </select>
+      <label for="status">Status</label>
+      <select id="status" name="status">
+        <option value="Pending">Pending</option>
+        <option value="Completed">Completed</option>
+      </select>
+
+      <button type="submit" id="saveTaskBtn" class="submit-btn">Save Task</button>
+    </form>
+  </div>
+  </div>
+
+
+<script src="../public/js/dashboard.js"></script>
+</body>
+</html>
