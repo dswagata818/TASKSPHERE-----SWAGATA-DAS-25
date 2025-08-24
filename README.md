@@ -3,6 +3,15 @@ A Personal Task Management  Web App
 Objective:
 Build a full-stack web application where users can register, log in, and manage their tasks(Create, Read, Update, Delete). The app will store data in MongoDB, use Node.js andExpress.js for the backend, and HTML/CSS/JS for the frontend.
 
+preview:
+
+#Screenshots:
+
+###Dashboard Page For Existing User
+![Dashboard](image/dashboard.png)
+
+### Add Task Form
+![Add Task](images/addtask.png)
 Tech Stack:
 Backend: Node.js, Express.js
 Database: MongoDB (with Mongoose)
